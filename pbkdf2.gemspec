@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/emerose/pbkdf2-ruby'
   s.authors = ['Sam Quigley']
   s.version = PBKDF2::VERSION
+  s.files = `git ls-files`.split($/)
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rdoc'
 end
